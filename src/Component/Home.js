@@ -13,12 +13,12 @@ import {Link} from 'react-router-dom';
   const [saman, setSaman] = useState(samans);
   const [index, setIndex] = useState(0);
 
-  const handleSelect = (selectedIndex, e) => {
+  const handleSelect = (selectedIndex) => {
     setIndex(selectedIndex);
   };
   return (
     <div className=''>
-      <Wrapper>
+  <Wrapper>
         <div>
         <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
@@ -77,10 +77,7 @@ import {Link} from 'react-router-dom';
         })
       }
       </div>
-       
-     
-      
-      </Wrapper>
+  </Wrapper>
     </div>
   )
 }

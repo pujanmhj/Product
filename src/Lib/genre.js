@@ -12,11 +12,11 @@ let gener=[
         colorCode:'#000000',
     },
     {
-        name:'Thrill',
+        name:'Mystery',
         colorCode:'#0000ff',
     },
     {
-        name:'Romantic',
+        name:'Drama',
         colorCode:'#800080',
     },
 

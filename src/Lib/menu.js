@@ -15,6 +15,21 @@ let nab=[
         subNav:[]
     },
     {
+        name:"Reducer",
+        path:"/reducer",
+        subNav:[]
+    },
+    {
+        name:"Fruits",
+        path:"/fruits",
+        subNav:[]
+    },
+    {
+        name:"ClassComponent",
+        path:"/classcomponent",
+        subNav:[]
+    },
+    {
         name:"Memo",
         path:"/memo",
         subNav:[]

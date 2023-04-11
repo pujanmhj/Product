@@ -7,7 +7,7 @@ import { BrowserRouter } from 'react-router-dom';
 import saman from './Lib/product';
 import ProductContext from './Providers/ProductProvider';
 
-
+const data="Pujan";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   
