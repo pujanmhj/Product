@@ -20,8 +20,7 @@ function SlideSlideWala() {
   // const Name = useContext(ProductContext)
  
    
-  return (
-    
+  return ( 
     <CardIndex>
       <Breadcrumb>
         {

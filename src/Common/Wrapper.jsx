@@ -1,4 +1,4 @@
-import React from 'react'
+
 import NavBar from './NavBar';
 import SlideSlideWala from './SlideSlideWala';
 import Footer from './Footer';
