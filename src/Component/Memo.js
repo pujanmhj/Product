@@ -1,5 +1,6 @@
 import {useState} from 'react'
 import Task from './Task'
+import Wrapper from "../Common/Wrapper"
 function Memo(){
     const[task,setTask] = useState(['Task1','Task2']);
     const [counter, setCounter] = useState(0);
@@ -11,12 +12,13 @@ function Memo(){
     }
   return (
     <>
-    FFF
+    <Wrapper>
     <Task tasks={task}/>
     <br/>
     {counter}
     <button onClick={increment}>+</button> <br />
     <button onClick={addMore}></button>
+    </Wrapper>
     </>
   )
 }

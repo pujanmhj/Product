@@ -8,7 +8,7 @@ import Footer from './Footer';
     <div>
         <NavBar/>
         <SlideSlideWala/>
-        <div style={{width:'100%', alignItems:'center',justifyContent: 'center',padding:'50px'}}>
+        <div style={{width:'100%', alignItems:'center',justifyContent: 'center',padding:'30px'}}>
         {children}
         </div>
         <Footer/>
