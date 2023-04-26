@@ -62,5 +62,10 @@ let nab=[
         path:"/contact",
         subNav:[]
     },
+    {
+        name:"Weather",
+        path:"/weather",
+        subNav:[]
+    },
 ]
 export default nab;

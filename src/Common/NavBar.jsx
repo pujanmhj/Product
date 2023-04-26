@@ -19,7 +19,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
             return (
                 <div>
                     {
-
                     menu.subNav.length == 0 ?
                      <Nav.Link key={id} href={menu.path}>{menu.name}</Nav.Link>
                     :                 

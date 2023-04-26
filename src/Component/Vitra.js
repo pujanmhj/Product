@@ -38,7 +38,7 @@ function Vitra() {
             filtered.length > 0 &&
             <Row>
                 <Col>
-                  <img src={filtered[0].image} alt="" />
+                  <img src={filtered[0].image} style={{width:"600px"}} />
                 </Col>
                 <Col>
                   <h1>{filtered[0].name}</h1>
